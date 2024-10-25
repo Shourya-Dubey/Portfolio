@@ -1,14 +1,22 @@
 import React from "react";
 import { useState } from "react";
 import styled from "styled-components";
+import Projectcard from "../Cards/Projectcard";
+import { projects } from "../../data/constants";
 
 const Container = styled.div`
+  background: linear-gradient(
+    343.07deg,
+    rgba(132, 59, 206, 0.06) 5.71%,
+    rgba(132, 59, 206, 0.06) 64.83%
+  );
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
   z-index: 1;
   align-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 98%, 0 100%)
 `;
 
 const Wrapper = styled.div`
@@ -20,6 +28,7 @@ const Wrapper = styled.div`
   width: 100%;
   max-width: 1100px;
   gap: 12px;
+  padding: 10px 0px 100px 0;
   @media (max-width: 960px) {
     flex-direction: column;
   }
@@ -138,38 +147,55 @@ const Projects = () => {
           )}
           <Divider />
 
-          {toogle === "andriod app" ? (
+          {toogle === "android app" ? (
             <ToggleButton
               active
-              value="andriod app"
-              onClick={() => setToogle("andriod app")}
+              value="android app"
+              onClick={() => setToogle("android app")}
             >
-              Android App
+              ANDROID APP'S
             </ToggleButton>
           ) : (
-            <ToggleButton onClick={() => setToogle("andriod app")}>
-              Android App
+            <ToggleButton
+              value="android app"
+              onClick={() => setToogle("android app")}
+            >
+              ANDROID APP'S
             </ToggleButton>
           )}
           <Divider />
 
-          {toogle === "machine" ? (
+          {toogle === "machine learning" ? (
             <ToggleButton
               active
-              value="machine"
-              onClick={() => setToogle("machine")}
+              value="machine learning"
+              onClick={() => setToogle("machine learning")}
             >
-              Machine
+              MACHINE LEARNING
             </ToggleButton>
           ) : (
-            <ToggleButton onClick={() => setToogle("machine")}>
-              Machine
+            <ToggleButton
+              value="machine learning"
+              onClick={() => setToogle("machine learning")}
+            >
+              MACHINE LEARNING
             </ToggleButton>
           )}
         </ToogleGroup>
 
         <CardContainer>
-          <Projectcard></Projectcard>
+          {toogle === "all" &&
+            projects.map((project) => (
+              <Projectcard
+                projectt={project}
+              />
+            ))}
+          {projects
+            .filter((item) => item.category == toogle)
+            .map((project) => (
+              <Projectcard projectt={project} />
+            ))}
+          <Projectcard />
         </CardContainer>
       </Wrapper>
     </Container>

@@ -38,9 +38,11 @@ function App() {
           <Hero />
           <Wrapper>
             <Skills />
-            {/* <Education /> */}
           </Wrapper>
-          <Projects/>
+          <Projects />
+          <Wrapper>
+            <Education />
+          </Wrapper>
         </Body>
       </Router>
     </ThemeProvider>

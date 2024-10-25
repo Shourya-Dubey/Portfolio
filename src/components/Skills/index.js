@@ -13,18 +13,19 @@ align-items: center;
 `
 
 const Wrapper = styled.div`
-position: relative;
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: column;
-width: 100%;
-max-width: 1100px;
-gap: 12px;
-@media (max-width: 960px) {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-direction: column;
-}
-`
+  width: 100%;
+  max-width: 1100px;
+  gap: 12px;
+  padding: 10px 0px 100px 0;
+  @media (max-width: 960px) {
+    flex-direction: column;
+  }
+`;
 
 export const Title = styled.div`
   font-size: 42px;
