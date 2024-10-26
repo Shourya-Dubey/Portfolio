@@ -273,7 +273,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: "https://imgs.search.brave.com/c-rHaRPZFA_IhZ9ClysD1lTYXCPPuFpyd_xNyp3kouk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzlmLzMz/LzI0LzlmMzMyNDVm/YzgxMGE3MjkzZjFk/NjkyMTRhODhkZGYx/LmpwZw",
     school: "Kalinga University, Raipur",
     date: "Oct 2022 - Sep 2025",
     grade: "8.71 CGPA",
@@ -282,7 +282,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+    img: "https://imgs.search.brave.com/lkA_G88XidrWUJ60vH6Q_cH7VuGBfXO_Co158mMWkEo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTIy/MTEyODQ0MC92ZWN0/b3IvZWR1Y2F0aW9u/LWJvb2stbG9nby12/ZWN0b3ItZGVzaWdu/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1CM053dUxWaExv/bmFPZnJxTnJZR3F6/YldLX1d4YzJ2clhw/c3o5MWgxajNvPQ",
     school: "Uchh Vidyalaya, Garhnokha",
     date: "july 2019 - july 2021",
     grade: "69%",
