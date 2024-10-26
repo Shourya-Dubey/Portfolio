@@ -9,6 +9,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Projects from './components/Projects';
 import { useState } from 'react';
 import ProjectDetails from './components/ProjectDetails';
+import Contact from './components/Contact';
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -45,6 +46,7 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
+            <Contact/>
           </Wrapper>
           {
             openModal.state && <ProjectDetails openModal={openModal} setOpenModal={setOpenModal}/>
