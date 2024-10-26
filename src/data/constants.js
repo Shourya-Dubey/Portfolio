@@ -277,7 +277,7 @@ export const education = [
     school: "Kalinga University, Raipur",
     date: "Oct 2022 - Sep 2025",
     grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Application at Kaling University, Raipur. I'm Pursuing 5th semester. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, among others.",
     degree: "Bachelor of Computer - Bca, Bachelor of Computer Applications",
   },
   {
@@ -299,7 +299,7 @@ export const projects = [
     description:
       "Engineered a feature-rich ed-tech platform using the MERN stack (MongoDB, Express.js, React.js, Node.js), enhancing user engagement through interactive learning.  Implemented secure user authentication, OTP verification, and comprehensive course management features to streamline user experience.  Developed RESTful APIs for course CRUD operations and user role management (student/instructor), facilitating efficient application interactions. Integrated Razorpay for secure payment processing and deployed the application on Vercel, Render, and MongoDB Atlas for optimal scalability.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://github.com/user-attachments/assets/91eae811-5c5b-43f3-b186-81c4e1884f2c",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Tailwind"],
     category: "web app",
     github: "https://github.com/Shourya-Dubey/studynotion",
@@ -312,7 +312,7 @@ export const projects = [
     description:
       "Developed a robust user authentication system using JWT, enabling role-based access for students and recruiters to enhance security. Leveraged Cloudinary for efficient media management, facilitating seamless handling of user profile pictures and job-related documents. implemented comprehensive job search, application, and review features, providing detailed recruiter profiles to streamline the hiring process.  Utilized technologies such as ReactJS, NodeJS, ExpressJS, MongoDB, Redux, JWT, and REST APIs to create a scalable and efficient application.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "https://github.com/user-attachments/assets/bdddb936-953d-4784-863c-6022d42d2dc2",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "Shadcn"],
     category: "web app",
     github: "https://github.com/Shourya-Dubey/JobNest",
@@ -325,7 +325,7 @@ export const projects = [
     description:
       "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+      "https://github.com/user-attachments/assets/dd29590f-361e-4ac4-b6ac-7dbdf3e8c18c",
     tags: ["HTML", "CSS"],
     category: "frontend",
     github: "https://github.com/Shourya-Dubey/Beats",
@@ -338,11 +338,11 @@ export const projects = [
     description:
       "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+      "https://github.com/user-attachments/assets/e06fd246-1a70-4835-9453-9b308325556f",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/Shourya-Dubey/password-Generator",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    webapp: "https://password-generator-taupe-nine.vercel.app/",
   },
   {
     id: 3,
@@ -351,7 +351,7 @@ export const projects = [
     description:
       " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
     image:
-      "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+      "https://github.com/Shourya-Dubey/Weather-App/assets/113089951/c177a98d-b351-4203-8b61-59efb4adaa67",
     tags: ["HTML", "CSS", "JavaScript"],
     category: "web app",
     github: "https://github.com/Shourya-Dubey/Weather-App",
