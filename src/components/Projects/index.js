@@ -147,49 +147,27 @@ const Projects = () => {
           )}
           <Divider />
 
-          {toogle === "android app" ? (
+          {toogle === "frontend" ? (
             <ToggleButton
               active
-              value="android app"
-              onClick={() => setToogle("android app")}
+              value="frontend"
+              onClick={() => setToogle("frontend")}
             >
-              ANDROID APP'S
+              Front End
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="android app"
-              onClick={() => setToogle("android app")}
+              value="frontend"
+              onClick={() => setToogle("frontend")}
             >
-              ANDROID APP'S
-            </ToggleButton>
-          )}
-          <Divider />
-
-          {toogle === "machine learning" ? (
-            <ToggleButton
-              active
-              value="machine learning"
-              onClick={() => setToogle("machine learning")}
-            >
-              MACHINE LEARNING
-            </ToggleButton>
-          ) : (
-            <ToggleButton
-              value="machine learning"
-              onClick={() => setToogle("machine learning")}
-            >
-              MACHINE LEARNING
+              Front End
             </ToggleButton>
           )}
         </ToogleGroup>
 
         <CardContainer>
           {toogle === "all" &&
-            projects.map((project) => (
-              <Projectcard
-                projectt={project}
-              />
-            ))}
+            projects.map((project) => <Projectcard projectt={project} />)}
           {projects
             .filter((item) => item.category == toogle)
             .map((project) => (
