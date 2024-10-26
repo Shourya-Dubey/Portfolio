@@ -177,7 +177,7 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <DiCssdeck size="3rem" /> <Span>{`<SHOURYA> <DUBEY/>`}</Span>
+            <DiCssdeck size="3rem" /> <Span>{`{ SHOURYA DUBEY }`}</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -190,7 +190,6 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
-          {/* <NavLink href="#experience">Experience</NavLink> */}
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </NavItems>
@@ -218,14 +217,6 @@ const Navbar = () => {
           >
             Skills
           </MobileMenuLink>
-          {/* <MobileMenuLink
-            href="#experience"
-            onClick={() => {
-              setOpen(!open);
-            }}
-          >
-            Experience
-          </MobileMenuLink> */}
           <MobileMenuLink
             href="#projects"
             onClick={() => {

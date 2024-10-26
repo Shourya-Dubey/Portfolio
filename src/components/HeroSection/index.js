@@ -158,6 +158,7 @@ const TextLoop = styled.div`
    max-width: 390px;
    max-height: 390px;
    border-radius: 50%;
+   right: 15px;
    border: 2px solid ${({ theme }) => theme.primary};
 
    @media (max-width: 768px) {

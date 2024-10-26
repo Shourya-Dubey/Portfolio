@@ -154,7 +154,7 @@ export const projects = [
   {
     id: 4,
     title: "StudyNotion",
-    date: "Aug 2024 - Oct 2024",
+    date: "Aug 2024 - present",
     description:
       "Engineered a feature-rich ed-tech platform using the MERN stack (MongoDB, Express.js, React.js, Node.js), enhancing user engagement through interactive learning.  Implemented secure user authentication, OTP verification, and comprehensive course management features to streamline user experience.  Developed RESTful APIs for course CRUD operations and user role management (student/instructor), facilitating efficient application interactions. Integrated Razorpay for secure payment processing and deployed the application on Vercel, Render, and MongoDB Atlas for optimal scalability.",
     image:
@@ -167,7 +167,7 @@ export const projects = [
   {
     id: 0,
     title: "Job Nest",
-    date: "Oct 2024 - Present",
+    date: "Oct 2024 - present",
     description:
       "Developed a robust user authentication system using JWT, enabling role-based access for students and recruiters to enhance security. Leveraged Cloudinary for efficient media management, facilitating seamless handling of user profile pictures and job-related documents. implemented comprehensive job search, application, and review features, providing detailed recruiter profiles to streamline the hiring process.  Utilized technologies such as ReactJS, NodeJS, ExpressJS, MongoDB, Redux, JWT, and REST APIs to create a scalable and efficient application.",
     image:
