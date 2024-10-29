@@ -182,7 +182,7 @@ export const projects = [
     title: "Beats",
     date: "Sep 2023 - Nov 2023",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Created a responsive, visually appealing front-end interface for a headphone product. Focused on delivering an intuitive and seamless user experience by highlighting product features and design aesthetics, with a strict adherence to confidentiality standards.",
     image:
       "https://github.com/user-attachments/assets/dd29590f-361e-4ac4-b6ac-7dbdf3e8c18c",
     tags: ["HTML", "CSS"],
@@ -195,7 +195,7 @@ export const projects = [
     title: "Password Generator",
     date: "Oct 2023 - Oct 2023",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "Password Generator will help you to set password of confidential item, you can use this in any ways like, if you strugle to find of set strong password to your social media handle The password genetaor will help you in this. Infact you choose what kind of password you want to set like password will include, upperCase, loweCase, numbers, specialCharcters and it will show you how strong password is.",
     image:
       "https://github.com/user-attachments/assets/e06fd246-1a70-4835-9453-9b308325556f",
     tags: ["HTML", "CSS", "JavaScript"],
@@ -208,7 +208,7 @@ export const projects = [
     title: "Weather App",
     date: "Jun 2021",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      "A Weather App wil help you in knowing a current weather behavior, it will also shows you humidity, windspeed and it use geolocation so that you can access weather of your current location ",
     image:
       "https://github.com/Shourya-Dubey/Weather-App/assets/113089951/c177a98d-b351-4203-8b61-59efb4adaa67",
     tags: ["HTML", "CSS", "JavaScript"],
