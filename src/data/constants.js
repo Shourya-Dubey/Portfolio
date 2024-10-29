@@ -195,7 +195,7 @@ export const projects = [
     title: "Password Generator",
     date: "Oct 2023 - Oct 2023",
     description:
-      "Password Generator will help you to set password of confidential item, you can use this in any ways like, if you strugle to find of set strong password to your social media handle The password genetaor will help you in this. Infact you choose what kind of password you want to set like password will include, upperCase, loweCase, numbers, specialCharcters and it will show you how strong password is.",
+      "Password Generator will help you to set password of confidential item, you can use this in many ways like, if you strugle to set strong password to your social media handle The password genetaor will help you in this. Infact you choose what kind of password you want to set like password will include, upperCase, loweCase, numbers, specialCharcters and it will show you how strong password is.",
     image:
       "https://github.com/user-attachments/assets/e06fd246-1a70-4835-9453-9b308325556f",
     tags: ["HTML", "CSS", "JavaScript"],
@@ -208,7 +208,7 @@ export const projects = [
     title: "Weather App",
     date: "Jun 2021",
     description:
-      "A Weather App wil help you in knowing a current weather behavior, it will also shows you humidity, windspeed and it use geolocation so that you can access weather of your current location ",
+      "A Weather App wil help you in find current weather behavior, it will also shows you humidity, windspeed and it use geolocation so that you can access weather of your current location ",
     image:
       "https://github.com/Shourya-Dubey/Weather-App/assets/113089951/c177a98d-b351-4203-8b61-59efb4adaa67",
     tags: ["HTML", "CSS", "JavaScript"],
